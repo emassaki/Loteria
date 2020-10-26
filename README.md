@@ -1,2 +1,2 @@
-# loterias
-Página para gerar números aleatórios para loterias da caixa.
+# Loterias
+Página para gerar números aleatórios para loterias Mega Sena, Quina e Lotofácil.
