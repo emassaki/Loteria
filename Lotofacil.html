@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mega Sena</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Teste">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+    <header>
+            <h1>Gerador de números para loteria</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="Mega.html">Mega Sena</a></li>
+            <li><a href="Quina.html">Quina</a></li>
+            <li><a class=active href="Lotofacil.html">Lotofácil</a></li>
+            <li style="float:right;"><a href="Sobre.html">Sobre</a></li>
+        </ul>
+    </nav>  
+
+    <p>
+        Serão selecionados <span id="nsorte">15</span> números da sorte
+        dentro de <span id="npossiveis">25</span> números possíveis. Os seus números são:
+    </p> 
+    <div id="numeros">
+        <form id="caixas"></form> 
+        <button onclick="gerar()">Gerar números</button>
+        <button onclick="apagar()">Limpar números</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+
+<hmtl>
